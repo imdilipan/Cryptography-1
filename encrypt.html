@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SecureVaultX | Encryption</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<div class="page">
+    <div class="card">
+        <h2>🛡 Secure File Encryption</h2>
+
+        <textarea id="plainText" placeholder="Enter text to encrypt"></textarea>
+        <input type="text" id="encKey" placeholder="Encryption Key">
+
+        <button onclick="encrypt()">Encrypt</button>
+
+        <textarea id="cipherText" placeholder="Encrypted Output"></textarea>
+
+        <button class="next-btn" onclick="goDecrypt()">Next →</button>
+    </div>
+</div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
