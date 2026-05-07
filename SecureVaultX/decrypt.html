@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SecureVaultX | Decryption</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<div class="page">
+    <div class="card">
+        <h2>🔑 Key Management & Decryption</h2>
+
+        <textarea id="cipherInput" placeholder="Paste encrypted text"></textarea>
+        <input type="text" id="decKey" placeholder="Decryption Key">
+
+        <button onclick="decrypt()">Decrypt</button>
+
+        <textarea id="result" placeholder="Decrypted Output"></textarea>
+
+        <button class="next-btn" onclick="restart()">Restart</button>
+    </div>
+</div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
